@@ -1,0 +1,3 @@
+[submodule "kazamori"]
+	path = kazamori
+	url = https://github.com/hiroshi30/kazamori.git
