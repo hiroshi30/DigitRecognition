@@ -21,8 +21,8 @@ configure_file(
 )
 
 
-# Kazamori
-add_subdirectory(Kazamori)
+# kazamori
+add_subdirectory(kazamori)
 
 
 # DigitRecognition
@@ -34,12 +34,12 @@ target_sources(DigitRecognition PRIVATE
 
 target_include_directories(DigitRecognition PRIVATE
     ${SDL2_INCLUDE_DIRS}
-    Kazamori
+    kazamori
 )
 
 target_link_libraries(DigitRecognition PRIVATE
     ${SDL2_LIBRARIES}
-    Kazamori
+    kazamori
 )
 
 # -mwindows - remove console output
